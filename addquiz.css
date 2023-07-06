@@ -1,0 +1,42 @@
+body{
+    background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+height: 100%;
+width: 100%;
+}
+
+.heading{
+    text-align: center;
+color: #f1053c;    
+font-style: italic;
+margin-top: 20px;
+font-weight: bold;
+}
+.Correctbg{
+    background-color: #f1053c;
+    border-radius: 5px;
+}
+#btn{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: solid #b12a5b;
+}
+#btn:hover{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    
+}
+.border:focus{
+    outline: none;
+}
+footer{
+    background-color: #FFE53B;
+background-image: linear-gradient(1deg, #FFE53B 10%, #ff2576 74%);
+
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 50px 0px;
+border: none;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AddQuiz</title>
+    <link rel="stylesheet" href="addquiz.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="heading">Add Quiz</h1>
+    <div class="container">
+        <div class="p-2">
+            <textarea name="" class="p-2 w-100 fs-5 border-0 rounded shadow bg-white border" placeholder="Add Question"
+                id="question" cols="30" rows="2"></textarea>
+        </div>
+        <div class="p-2">
+            <div class="text-center">
+                <input type="text" name="" id="option" class="w-100 p-2 fs-5 border-0 rounded shadow bg-white border"
+                    placeholder="Enter Option">
+                    
+                    <button onclick="addOptions()" id="btn" class="btn text-white">+Add</button>
+            </div>
+            <div>
+                <ol id="optionsParent">
+
+                </ol>
+            </div>
+            <div>
+                <p id="correctAnswer" class="Correctbg text-white p-3">Correct Answer  </p>
+            </div>
+            <div class="text-center">
+                <button onclick="submitQuestion()" id="btn" class="btn text-white">Submit Question</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+<button onclick="back()" id="btn" class="btn text-white">BACK</button>
+<button onclick="resetp()" id="btn" class="btn text-white">RESET PASSWORD</button>
+<button onclick="delQuiz()" id="btn" class="btn text-white">DELETE QUIZ</button>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+        <script type="module" src="addquiz.js"></script>
+
+</body>
+
+</html>

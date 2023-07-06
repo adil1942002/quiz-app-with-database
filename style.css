@@ -1,0 +1,87 @@
+body{
+    position: relative;
+    background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+height: 110vh;
+width: 100%;
+}
+
+#quiz{
+    text-align: center;
+color: #f1053c;    
+font-style: italic;
+margin-top: 20px;
+font-weight: bold;
+}
+
+.main{
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+#qnum{
+    background-color: #b12a5b;
+    background-image: linear-gradient(315deg, #b12a5b 0%, #ff8177 46%, #b12a5b 100%);
+    
+    width: 90px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+    border-top-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+}
+.icon{
+
+    color: #513162;
+    font-size: 20px;
+}
+#currentQuestion{
+    color: #f1053c;
+}
+#totalQuestion{
+    color: #f1053c;
+}
+.ques{
+    text-align: center;
+    margin-bottom: 80px;
+    color: #513162;
+}
+#btn{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #513162;
+    border-color: #f1053c;
+    background-color: rgba(0, 0, 0, 0.0);
+    
+}
+#btn:hover{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+
+}
+.option{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.marks{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    display: none;
+
+}
+.btnadd{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    margin: 10px;
+    border: none;    
+    border-bottom-right-radius:30px ;
+    border-top-left-radius:30px ;
+padding: 5px 0px;    
+    
+}

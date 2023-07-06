@@ -1,0 +1,46 @@
+.main{
+    background-color: #FBDA61;
+    background-image: linear-gradient(35deg, #FBDA61 0%, #FF5ACD 100%);
+    height: 100%;
+    width: 100%;
+}
+
+.deleterow{
+    padding: 10px;
+    background-color: #FF5ACD;
+border: none;
+border-radius: 5px;
+color: #FBDA61;
+}
+
+.correctans{
+/* text-align: end; */
+margin-right: 20px;
+}
+
+.hover{
+
+    border-color: #FF5ACD;
+}
+#btn{   
+    display: block;
+    text-align: end;
+    margin-right: 20px;
+}
+.hover:hover{   
+        background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+        color: white;
+width: auto;
+
+}
+ #btn2{
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: solid #b12a5b;
+}
+#btn2:hover{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    
+}
